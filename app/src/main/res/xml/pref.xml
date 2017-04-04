@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="cbNotif"
+        android:summary="@string/enable_notifications"
+        android:title="Check box preference" />
+
+    <EditTextPreference
+        android:key="etAddress"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:summary="@string/address_for_notification"
+        android:title="@string/address" />
+
+</PreferenceScreen>
